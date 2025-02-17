@@ -1,18 +1,17 @@
 package scanner_test
 
 import (
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
 	"testing"
 
-	"path/filepath"
-
-	"github.com/dave/courtney/scanner"
-	"github.com/dave/courtney/shared"
 	"github.com/dave/patsy"
 	"github.com/dave/patsy/builder"
 	"github.com/dave/patsy/vos"
+	"github.com/meDavidNS/courtney/scanner"
+	"github.com/meDavidNS/courtney/shared"
 )
 
 func TestSingle(t *testing.T) {

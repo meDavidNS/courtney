@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dave/courtney/shared"
-	"github.com/dave/courtney/tester/logger"
-	"github.com/dave/courtney/tester/merge"
+	"github.com/meDavidNS/courtney/shared"
+	"github.com/meDavidNS/courtney/tester/logger"
+	"github.com/meDavidNS/courtney/tester/merge"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/cover"
 )
